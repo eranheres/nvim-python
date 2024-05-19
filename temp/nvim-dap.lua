@@ -52,7 +52,7 @@ return {
     --vim.keymap.set("n", "<leader>dt", xcodebuild.debug_tests, { desc = "Debug Tests" })
     --vim.keymap.set("n", "<leader>dT", xcodebuild.debug_class_tests, { desc = "Debug Class Tests" })
     vim.keymap.set("n", "<leader>db", dap.toggle_breakpoint, { desc = "Toggle Breakpoint" })
-    vim.keymap.set("n", "<leader>B", dap.toggle_message_breakpoint, { desc = "Toggle Message Breakpoint" })
+    --vim.keymap.set("n", "<leader>B", dap.toggle_message_breakpoint, { desc = "Toggle Message Breakpoint" })
     --stylua: ignore end
 
     vim.keymap.set("n", "<leader>dx", function()
